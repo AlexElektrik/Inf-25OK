@@ -1,6 +1,6 @@
 .mob-header {
   border-bottom: 1px solid #ececec;
-  @media screen and(min-width:768px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
   .container {
@@ -40,10 +40,10 @@
   background-color: #fff;
   padding: 40px 40px 70px;
   overflow: auto;
-  @media screen and(min-width:480px) {
+  @media screen and (min-width: 480px) {
     padding: 48px 40px;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width: 768px) {
     padding: 10px 40px;
   }
 }
@@ -51,7 +51,7 @@
   &:not(:last-child) {
     margin-bottom: 32px;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width: 768px) {
     &:not(:last-child) {
       margin-bottom: 10px;
     }
@@ -100,7 +100,7 @@
   }
   @include font(500, 11px, 1.12, 0.02em);
 
-  @media screen and(min-width:480px) {
+  @media screen and (min-width: 480px) {
     @include font(null, 18px, 1.22, null);
   }
 }
@@ -114,7 +114,7 @@
   text-decoration: none;
   @include font(500, 25px, 1.18, 0.02em);
   color: var(--accent-color);
-  @media screen and(min-width:480px) {
+  @media screen and (min-width: 480px) {
     @include font(null, 40px, null, null);
   }
 }

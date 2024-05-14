@@ -7,13 +7,13 @@
   }
 }
 .container-footer {
-  @media screen and(min-width:768px) {
+  @media screen and (min-width: 768px) {
     align-items: baseline;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  @media screen and(min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     justify-content: space-between;
   }
 }
@@ -28,7 +28,7 @@
   margin-bottom: 60px;
   text-align: center;
 
-  @media screen and(min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     margin-bottom: 0;
     text-align: start;
   }
@@ -54,7 +54,7 @@
 
 .adress__item:not(:last-child) {
   margin-bottom: 8px;
-  @media screen and(min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     margin-bottom: 9px;
   }
 }
@@ -63,7 +63,7 @@
 
 .footer-soc {
   text-align: center;
-  @media screen and(min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     margin-left: 70px;
     text-align: start;
   }
@@ -80,7 +80,7 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-  @media screen and(min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     justify-content: start;
   }
 }
@@ -114,7 +114,7 @@
 
 .footer-form {
   text-align: center;
-  @media screen and(min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     text-align: start;
     margin-left: 93px;
   }
@@ -139,7 +139,7 @@
   @include font(700, 16px, 1.88, 0.06em);
   color: var(--secondary-text-color);
 
-  @media screen and(min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     display: inline-flex;
     margin-left: 12px;
   }
@@ -164,10 +164,10 @@
     @include font(null, 16px, 1.25, 0.03em);
     color: rgba(255, 255, 255, 0.6);
   }
-  @media screen and(min-width:480px) {
+  @media screen and (min-width: 480px) {
     width: 450px;
   }
-  @media screen and(min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     width: 358px;
   }
 }
